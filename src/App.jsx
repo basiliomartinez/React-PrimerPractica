@@ -1,7 +1,9 @@
 function App() {
 
   return (
-    <h1>Hola mundo </h1>
+    <header className="py-3 text-center">
+    <h1 className="display-4">Primera app con react </h1>
+    </header>
   )
 }
 
