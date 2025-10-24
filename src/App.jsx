@@ -1,4 +1,5 @@
 import Teoria from "./components/Teoria"
+import Conceptos from "./components/Conceptos"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <main className="container">
       <Teoria></Teoria>
       {/*<Teoria/>*/}
+      <Conceptos/>
     </main>
     </>
   )
