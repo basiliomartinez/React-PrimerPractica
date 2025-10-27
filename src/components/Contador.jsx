@@ -13,7 +13,7 @@ const Contador = () => {
         <div className="d-flex justify-content-center">
 <button className="btn btn-primary" onClick={()=> setNumero(numero+1)}>+</button>
 <p className="fs-3 mx-3">{numero}</p>
-<button className="btn btn-danger">-</button>
+<button className="btn btn-danger" onClick={()=> setNumero(numero>0?numero-1:0)}>-</button>
         </div>
         </section>
     );
